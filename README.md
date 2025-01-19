@@ -1,4 +1,4 @@
-Movie Recommendation System
+# Movie Recommendation System
 This is a movie recommendation system built using Python, utilizing content-based and user-based collaborative filtering techniques. The system provides movie recommendations to users based on their previous ratings and movie genres, as well as suggesting movies with similar content (such as title and genre).
 Features
 •	Content-Based Recommendations: Recommends movies based on the content (title + genres) of a given movie using TF-IDF vectorization and cosine similarity.
