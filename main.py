@@ -16,7 +16,7 @@ def splot():
     plt.xlabel('Rating')
     plt.ylabel('Frequency')
 
-    # Show plot
+    # Show plo
     plt.show()
 
 def content_based(movie_id):
