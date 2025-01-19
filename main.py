@@ -42,7 +42,7 @@ def content_based(movie_id):
     # Retrieve similarity scores for the selected movie
     similarity_scores = content_similarity[movie_index]
 
-    # Create a DataFrame with similarity scores and corresponding movie title
+    # Create a DataFrame with similarity scores and corresponding movie titles
     similar_movies = pd.DataFrame({
         'movieId': movies['movieId'],
         'title': movies['title'],
